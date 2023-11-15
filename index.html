@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/milogo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+<!--------------------------------------------------------->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">{HampCode}</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#formacion" onclick="seleccionar()">FORMACIÓN</a></li>
+                    <!--<li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>-->
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+<!--------------------------------------------------------->
+    <!-- SECCION INICIO -->
+<!--------------------------------------------------------->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/mee.jpg" alt="">
+            </div>
+            <h1>Henry Antonio Mendoza Puerta</h1>
+            <h2><span class="typed"></span></h2>
+            <div class="redes">
+                <a href="https://github.com/hampcode" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/henrymendozapuerta/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.youtube.com/channel/UCwA02SnUlVMVs8bM0GudPIw" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+
+                
+        
+            </div>
+        </div>
+    </section>
+<!--------------------------------------------------------->
+
+<!-- SECCION SOBRE MI -->
+<!--------------------------------------------------------->
+<section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+        <h2>Sobre Mí</h2>
+        <p>Soy <span>Henry Antonio Mendoza Puerta </span>, profesor apasionado por el desarrollo de software. Aquí comparto proyectos prácticos y enseñanzas del aula. ¡Explora, colabora y aprendamos juntos!</p>
+
+        <div class="fila">
+            <!-- datos personales -->
+            <!--<div class="col">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li>
+                        <strong>Nacimiento</strong>
+                        10-01-2001
+                    </li>
+                    <li>
+                        <strong>Teléfono</strong>
+                        (+57) 320 4894873
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        jdiegogarcia0110@gmail.com
+                    </li>
+                    <li>
+                        <strong>Edad</strong>
+                        21
+                    </li>
+                    <li>
+                        <strong>Ciudad</strong>
+                        Bogotá D.C. Colombia
+                    </li>
+                    <li>
+                        <strong>Cargo</strong>
+                        <span>Desarrollador</span>
+                    </li>
+                </ul>
+            </div>-->
+            <!-- intereses -->
+            <!--<div class="col">
+                <h3>Intereses</h3>
+                <div class="contenedor-intereses">
+                    <div class="interes">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>JUEGOS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>MUSICA</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-plane"></i>
+                        <span>VIAJAR</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-sharp fa-solid fa-chalkboard-user"></i>
+                        <span>AUTODIDACTA</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-person-hiking"></i>
+                        <span>DEPORTE</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-sharp fa-solid fa-computer"></i>
+                        <span>EXPLORAR</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-camera"></i>
+                        <span>FOTOGRAFIA</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-pen-nib"></i>
+                        <span>DISEÑO</span>
+                    </div>
+                    
+                </div>
+            </div>-->
+        </div>
+       <!--<a href="#" target="_blank">
+        <button>
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+        </a>-->
+    </div>
+</section>
+<!--------------------------------------------------------->
+    
+<!-- SECCION SKILLS -->
+<!--------------------------------------------------------->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                 <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C#</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Angular</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skill">
+                        <span>MySQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>GIT</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PostgreSQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C# y .NET</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--------------------------------------------------------->
+
+<!-- SECCION CURRICULUM -->
+<!--------------------------------------------------------->
+<section id="formacion" class="curriculum">
+    <div class="contenido-seccion">
+        <h2>Formación</h2>
+        <div class="fila">
+            <div class="col izquierda">
+                <div class="item izq">
+                    <h4>Microservicios con Spring Cloud</h4>
+                    <span class="casa">MitoCode</span>
+                    <!--<span class="fecha">2018 - 2022</span>-->
+                    <p>El curso se oriento a desarrollar correctamente una arquitectura de microservicios con Spring Cloud</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Java Full Stack Developer (Spring Boot 3 - Angular 16)</h4>
+                    <span class="casa">MitoCode</span>
+                    <!--<span class="fecha">2021 - 2021</span>-->
+                    <p>El curso se oriento a la construcción de aplicaciones web robustas y aprovechar las ventajas de Angular para construir interfaces modernas.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                  <div class="item izq">
+                    <h4>Docker Kubernetes Cloud</h4>
+                    <span class="casa">MitoCode</span>
+                    <!--<span class="fecha">2021 - 2021</span>-->
+                    <p>El curso se oriento al aprendizaje de Kubernetes con las tres nubes más importantes del mercado, AWS, Azure y Google Cloud.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+               
+            </div>
+
+            <div class="col derecha">
+                
+                <div class="item der">
+                    <h4>Net 7 Full Stack Developer</h4>
+                    <span class="casa">MitoCode</span>
+                    <!--<span class="fecha">2022 - 2022</span>-->
+                    <p>El curso se oriento a la construcción de aplicaciones web robustas y aprovechar las ventajas de Angular para construir interfaces modernas.
+                Creamos un proyecto simulando un sistema de venta de tickets musicales usando backend en .NET Core 7 y frontend en Angular 16, desplegando el producto en Azure.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Spring WebFlux - Programación Reactiva</h4>
+                    <span class="casa">MitoCode</span>
+                    <!--<span class="fecha">2021 - 2021</span>-->
+                    <p>El curso estuvo orientado al  desarrollo de software que deseen utilizar Java con el framework Spring para la construcción de aplicaciones web reactivas y aprovechar las ventajas de WebFlux con Project Reactor. 
+                        Significo  un gran salto al nuevo paradigma reactivo cada vez más solicitado laboralmente</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+
+                <div class="item der">
+                    <h4>Arquitecto DevOps</h4>
+                    <span class="casa">MitoCode</span>
+                    <!--<span class="fecha">2021 - 2021</span>-->
+                    <p>El curso estuvo orientado a proyectos en el lenguaje Java, usaremos Java 17 y Spring Boot 3. Aprendizaje correcto de herramientas como Jenkins, Ansible, Terraform, Docker y ¡más!</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--------------------------------------------------------->
+
+<!-- SECCION PORTFOLIO -->
+<!--------------------------------------------------------->
+   <!-- <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+        </div>
+
+        <section class="trabajos" id="trabajos">
+          
+    
+            <nav>
+                <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
+                <a href="javascript:void(0)" class="" id="disenio" onclick="verCategoria('disenio')">Diseño</a>
+                <a href="javascript:void(0)" class="" id="programacion" onclick="verCategoria('programacion')">Programación</a>
+                <a href="javascript:void(0)" class="" id="animaciones" onclick="verCategoria('animaciones')">Animaciones</a>
+            </nav>
+    
+            <div class="galeria">
+                <div class="item disenio">
+                    <img src="img/Diseño1.jpg" alt="">
+                    <div class="info">
+                        <h3>Logo ART-17</h3>
+                        <span>Illustrator</span><span>Photoshop</span>
+                    </div>
+                </div>
+                <div class="item programacion">
+                    <img src="img/Programacion1.png" alt="">
+                    <div class="info">
+                        <h3>Proyecto SICREB</h3>
+                        <span>EJS</span><span>CSS3</span><span>Bootstrap5</span><span>JavaScript</span><span>Node.js</span><span>MySQL</span><span>Express.js</span><span>Adobe.Xd</span>
+                        <a href="https://github.com/JuanDiegoGarciaA/Proyecto-SICREB" target="_blank">Ver Trabajo</a>
+                    </div>
+                </div>
+                <div class="item animaciones">
+                    <img src="img/animacion1.png" alt="">
+                    <div class="info">
+                        <h3>Animación Calentamiento Global</h3>
+                        <span>Blender</span><span>Illustrator</span><span>Premiere Pro</span>
+                        <a href="https://youtu.be/m2WLTRkvBiw" target="_blank">Ver Trabajo</a>
+                    </div>
+                </div>
+                <div class="item disenio">
+                    <img src="img/diseño2.png" alt="">
+                    <div class="info">
+                        <h3>Diseño 3D Jefe Maestro</h3>
+                        <span>Blender</span><span>Photoshop</span><span>Illustrator</span>
+                    </div>
+                </div>
+                <div class="item animaciones">
+                    <img src="img/animacion2.png" alt="">
+                    <div class="info">
+                        <h3>CORRE-Terror</h3>
+                        <span>Blender</span><span>Illustrator</span><span>Premiere Pro</span>
+                        <a href="https://youtu.be/V1O5JQelxwg" target="_blank">Ver Trabajo</a>
+                    </div>
+                </div>
+                <div class="item programacion">
+                    <img src="img/Programacion2.png" alt="">
+                    <div class="info">
+                        <h3>Clon Spotify-Angular</h3>
+                        <span>Angular</span><span>CSS</span><span>JavaScript</span><span>Node.js</span><span>TypeScript</span><span>HTML5</span>
+                        <a href="https://github.com/JuanDiegoGarciaA/Spotify" target="_blank">Ver Trabajo</a>
+                    </div>
+                </div>
+                <div class="item disenio">
+                    <img src="img/diseño3.png" alt="">
+                    <div class="info">
+                        <h3>Tarjeta</h3>
+                        <span>Illustrator</span><span>Photoshop</span>
+                    </div>
+                </div>
+                <div class="item programacion">
+                    <img src="img/Programacion3.png" alt="">
+                    <div class="info">
+                        <h3>Pagina ART-17</h3>
+                        <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Adobe.Xd</span>
+                        <a href="https://studio-art-17.netlify.app/index.html" target="_blank">Ver Trabajo</a>
+                        <a href="https://github.com/JuanDiegoGarciaA/Studio_Art-17" target="_blank">Ver Codigo</a>
+                    </div>
+                </div>
+                <div class="item programacion">
+                    <img src="img/Programacion4.png" alt="">
+                    <div class="info">
+                        <h3>APP-pomodoro</h3>
+                        <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                        <a href="https://github.com/JuanDiegoGarciaA/Pomodoro" target="_blank">Ver Trabajo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>-->
+<!--------------------------------------------------------->
+
+<!-- SECCION CONTACTO -->
+<!--------------------------------------------------------->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form id="my-form" action="https://formspree.io/f/xgeqnrno" method="POST">
+                        <input type="text" id="Novacio" placeholder="Tú Nombre" name="nombre" required>
+                        <input type="text" id="Novacio" placeholder="Número telefónico" name="Numero" required>
+                        <input type="text" id="Novacio" placeholder="Dirección de correo" name="correo" required>
+                        <input type="text" id="Novacio" placeholder="Tema" name="tema" required>
+                        <textarea name="Mensaje" id="Novacio" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                </div>
+            </div>
+            <button id="my-form-status" type="submit" onclick="validar()">
+                Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                <span class="overlay"></span>
+            </button>
+            </form>
+            <script>
+                var form = document.getElementById("my-form");
+                var Vacio = false
+                function validar(){
+                    Novacio = document.getElementById('Novacio').value
+                    if(Novacio.length==0 || /^\s+$/.test(Novacio)){
+                    Vacio=true
+                    }
+                }       
+                async function handleSubmit(event) {
+                  event.preventDefault();
+                  var status = document.getElementById("my-form-status");
+                  var data = new FormData(event.target);
+                  fetch(event.target.action, {
+                    method: form.method,
+                    body: data,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                  }).then(response => {
+                    if (response.ok && Vacio==false) {
+                      status.innerHTML = "Tu mensaje ha sido enviado!";
+                      form.reset()
+                    } else {
+                      response.json().then(data => {
+                        if (Object.hasOwn(data, 'errors')) {
+                          status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                        } else {
+                          status.innerHTML = "Oops! hemos tenido un problema al enviar el mensaje"
+                        }
+                      })
+                    }
+                  }).catch(error => {
+                    status.innerHTML = "Oops! hemos tenido un problema al enviar el mensaje"
+                  });
+                }
+                form.addEventListener("submit", handleSubmit)
+            </script>
+        </div>
+    </section>
+<!--------------------------------------------------------->
+
+<!-- footer -->
+<!--------------------------------------------------------->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+             <a href="https://github.com/hampcode" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/henrymendozapuerta/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.youtube.com/channel/UCwA02SnUlVMVs8bM0GudPIw" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <p>{HampCode}</p>
+        </div>
+    </footer>
+<!--------------------------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
