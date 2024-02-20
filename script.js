@@ -1,13 +1,8 @@
 const typed = new Typed(".typed", {
-  strings: [
-    '<i class="habilidad">Java</i>',
-    '<i class="habilidad">C#</i>',
-    '<i class="habilidad">C++</i>',
+  strings: [    
     '<i class="habilidad">JavaScript</i>',
      '<i class="habilidad">TypeScript</i>',
-     '<i class="habilidad">Python</i>',
-    '<i class="habilidad">PostgreSQL</i>',
-    '<i class="habilidad">MySQL</i>',
+     '<i class="habilidad">Java</i>',
   ],
   stringsElement: "#cadenas-texto", // ID del elemento que contiene cadenas de texto a mostrar.
   typeSpeed: 75, // Velocidad en mlisegundos para poner una letra,
