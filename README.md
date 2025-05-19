@@ -1,7 +1,6 @@
 # 👋 Hola, soy Henry A. Mendoza Puerta
 
-🎓 Docente universitario | 💻 Backend Developer en Java y TypeScript  
-Desarrollo de aplicaciones empresariales con Spring Boot y Angular. Combino la experiencia en desarrollo con la enseñanza práctica y aplicada de tecnologías actuales.
+Docente universitario | Backend Developer en Java y TypeScript | Desarrollo de aplicaciones empresariales con Spring Boot y Angular. Combino la experiencia en desarrollo con la enseñanza práctica y aplicada de tecnologías actuales.
 
 ---
 
