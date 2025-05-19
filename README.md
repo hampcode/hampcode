@@ -16,7 +16,7 @@ Ingeniero en Computación y Sistemas con sólida experiencia en el desarrollo ba
 - **Frameworks:** Spring Boot (Java), Angular (TypeScript)
 - **Bases de datos:** PostgreSQL, MySQL
 - **Herramientas:** Git, Docker, Postman
-- **Prácticas:** RESTful API, Arquitectura en capas, Validaciones, Testing, CI/CD
+- **Prácticas:** RESTful API, Arquitectura en capas, Arquitectura Hexagonal, Validaciones, Testing, CI/CD
 
 ---
 
