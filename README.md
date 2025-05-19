@@ -6,7 +6,7 @@ Docente universitario | Backend Developer en Java y TypeScript | Desarrollo de a
 
 ## 👨‍🏫 Perfil Profesional
 
-Ingeniero en Computación y Sistemas con sólida experiencia en el desarrollo backend y en la formación de estudiantes de carreras de tecnología.
+Ingeniero en Computación y Sistemas con sólida experiencia en el desarrollo de software y en la formación de estudiantes de carreras de tecnología.
 
 ---
 
