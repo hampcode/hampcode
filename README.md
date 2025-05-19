@@ -37,7 +37,16 @@ Ingeniero en Computación y Sistemas con sólida experiencia en el desarrollo ba
 - Uso de herramientas como GitHub, Trello y Figma en el aula.
 
 ---
+## 🎥 Cursos dictados en EDteam
 
+He tenido el privilegio de ser instructor en EDteam, una plataforma educativa en español que ofrece cursos en programación, diseño y tecnología. Algunos de los cursos que he dictado incluyen:
+
+- [Java desde Cero 2024](https://ed.team/cursos/java): Aprende Java desde los fundamentos hasta la programación orientada a objetos y manejo de excepciones.
+- [Angular desde Cero 2024](https://ed.team/cursos/angular): Domina Angular desde la instalación hasta la creación de aplicaciones web completas.
+- [Desarrolla un sistema de reservas con Spring Boot y Angular](https://ed.team/cursos/apis-spring-angular): Aprende a construir una aplicación de reservas integrando backend y frontend con tecnologías modernas.
+
+Puedes explorar todos mis cursos en mi perfil de EDteam: [https://ed.team/u/hampcode/cursos-dictados](https://ed.team/u/hampcode/cursos-dictados)
+---
 ## 📫 Contacto
 
 - GitHub: [@hampcode](https://github.com/hampcode)
