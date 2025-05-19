@@ -1,44 +1,45 @@
 # 👋 Hola, soy Henry A. Mendoza Puerta
 
-🎓 **Docente universitario** | 💻 **Backend Developer (Java & TypeScript)** | 🌐 **Apasionado por la arquitectura de software y la educación tecnológica**
+🎓 Docente universitario | 💻 Backend Developer en Java y TypeScript  
+Desarrollo de aplicaciones empresariales con Spring Boot y Angular. Combino la experiencia en desarrollo con la enseñanza práctica y aplicada de tecnologías actuales.
 
 ---
 
-## 👨‍🏫 Sobre mí
+## 👨‍🏫 Perfil Profesional
 
-Soy ingeniero en Computación y Sistemas con amplia experiencia combinando el mundo académico y el desarrollo profesional. Como docente, me especializo en cursos de arquitectura de software, programación backend, y gestión de proyectos. Como desarrollador, tengo afinidad por construir APIs robustas y mantenibles usando tecnologías modernas.
-
-Me entusiasma crear contenido educativo que conecte teoría con práctica, preparando a los estudiantes para resolver desafíos reales.
+Ingeniero en Computación y Sistemas con sólida experiencia en el desarrollo backend y en la formación de estudiantes de carreras de tecnología.
 
 ---
 
-## 🧠 Tecnologías que domino
+## 🛠️ Tecnologías
 
-- **Lenguajes:** Java, TypeScript, SQL, JavaScript
-- **Frameworks:** Spring Boot, Express.js, NestJS
+- **Lenguajes:** Java, TypeScript, SQL
+- **Frameworks:** Spring Boot (Java), Angular (TypeScript)
 - **Bases de datos:** PostgreSQL, MySQL
-- **Pruebas & DevOps:** Postman, Docker, Git, CI/CD
-- **Otros:** RESTful APIs, Clean Architecture, DDD, GitHub Actions
+- **Herramientas:** Git, Docker, Postman
+- **Prácticas:** RESTful API, Arquitectura en capas, Validaciones, Testing, CI/CD
 
 ---
 
-## 🚀 Algunos proyectos
+## 🚀 Proyectos destacados
 
-- 🔧 [Task Management API](https://github.com/hampcode/taskmanagement-api): Gestión de tareas con reglas de negocio, validaciones y pruebas automatizadas.
-- ☁️ [Microservices con Spring Cloud](https://github.com/hampcode/Microservices): Arquitectura distribuida con Spring Boot, Eureka, Zuul y OAuth2.
-- 👕 [GeekShirt Store](https://github.com/hampcode/MicroservicesGeekShirt): Microservicio de tienda online temática.
-
----
-
-## 📚 En la docencia
-
-- Diseño experiencias de aprendizaje basadas en proyectos reales.
-- Evalúo competencias mediante prácticas técnicas y trabajo colaborativo.
-- Promuevo el uso de Git y GitHub como herramientas clave en la formación profesional.
+| Proyecto | Descripción |
+|---------|-------------|
+| [Task Management API](https://github.com/hampcode/taskmanagement-api) | API REST con validaciones y control de reglas de negocio en Spring Boot |
+| [Microservices](https://github.com/hampcode/Microservices) | Proyecto con Eureka, Zuul y OAuth2 |
+| [MicroservicesGeekShirt](https://github.com/hampcode/MicroservicesGeekShirt) | Aplicación de venta online usando microservicios y Spring Cloud |
 
 ---
 
-## 📬 Contacto
+## 🎓 Actividad docente
+
+- Diseño y evaluación de proyectos en cursos como Desarrollo de Software, Taller de Proyecto, IHC.
+- Enfoque en el uso de buenas prácticas, pruebas, control de versiones y trabajo colaborativo.
+- Uso de herramientas como GitHub, Trello y Figma en el aula.
+
+---
+
+## 📫 Contacto
 
 - GitHub: [@hampcode](https://github.com/hampcode)
-- YouTube (demo educativos): [@hampcode](https://www.youtube.com/@hampcode)
+- YouTube: [@hampcode](https://www.youtube.com/@hampcode)
