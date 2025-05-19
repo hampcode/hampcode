@@ -45,7 +45,6 @@ He tenido el privilegio de ser instructor en EDteam, una plataforma educativa en
 - [Angular desde Cero 2024](https://ed.team/cursos/angular): Domina Angular desde la instalación hasta la creación de aplicaciones web completas.
 - [Desarrolla un sistema de reservas con Spring Boot y Angular](https://ed.team/cursos/apis-spring-angular): Aprende a construir una aplicación de reservas integrando backend y frontend con tecnologías modernas.
 
-Puedes explorar todos mis cursos en mi perfil de EDteam: [https://ed.team/u/hampcode/cursos-dictados](https://ed.team/u/hampcode/cursos-dictados)
 ---
 ## 📫 Contacto
 
